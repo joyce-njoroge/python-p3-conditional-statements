@@ -6,7 +6,7 @@ def admin_login(username, password):
         return "Access granted"
     else:
         return "Access denied"
-    pass
+    
 
 def hows_the_weather(temperature):
     # your code here
@@ -18,7 +18,7 @@ def hows_the_weather(temperature):
         return "It's too dang hot out there!"
     else:
         return "It's perfect out there!"
-    pass
+    
 
 def fizzbuzz(num):
     # your code here
@@ -30,7 +30,7 @@ def fizzbuzz(num):
         return "Buzz"
     else:
         return num
-    pass
+    
 
 def calculator(operation, num1, num2):
     # your code here
@@ -45,4 +45,4 @@ def calculator(operation, num1, num2):
     else:
         print("Invalid operation!")
         return None
-    pass
+    
